@@ -1,0 +1,34 @@
+.display {
+    display: flex;
+}
+
+.items {
+    align-items: center;
+}
+
+.space {
+    justify-content: space-around;
+}
+
+.btn {
+    font-family: 'poppins', sans-serif;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2.5rem;
+    transition: all .3s ease;
+}
+
+.btn-primary {
+    color: var(--pure);
+    background: var(--secondary);
+}
+
+.btn-primary:hover{
+    background: transparent;
+    border: 2px solid var(--secondary);
+}
+
