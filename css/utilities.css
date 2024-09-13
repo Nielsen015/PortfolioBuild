@@ -32,3 +32,45 @@
     border: 2px solid var(--secondary);
 }
 
+.hero .right .btns{
+    font-family: 'poppins', sans-serif;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid var(--secondary);
+    outline: none;
+    cursor: pointer;
+    border-radius: 2.5rem;
+    transition: all .3s ease;
+}
+
+.hero .right .btn-secondary{
+    color: var(--secondary);
+}
+.hero .right .btn-secondary:hover{
+    color: var(--light);
+    background-color: var(--secondary);
+}
+
+.hero .right .download{
+    margin-left:1rem;
+    font-weight: 800;
+}
+
+.hero .right .svg-container{
+    margin-left:2.5rem;
+    font-weight: 800;
+}
+.hero .right .svg-container svg{
+    margin-right:1rem;
+    font-weight: 800;
+}
+
+.flex-1{
+    flex:1
+}
+
+.justify-center {
+    justify-content: center;
+}
