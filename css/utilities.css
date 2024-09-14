@@ -1,5 +1,6 @@
 .display {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .items {
@@ -10,7 +11,7 @@
     justify-content: space-around;
 }
 
-.btn {
+.btn1 {
     font-family: 'poppins', sans-serif;
     padding: 0.4rem 1rem;
     font-size: 1rem;
@@ -19,15 +20,15 @@
     outline: none;
     cursor: pointer;
     border-radius: 2.5rem;
-    transition: all .3s ease;
+    transition: all 0.5s ease;
 }
 
-.btn-primary {
+.btn-primary1 {
     color: var(--pure);
     background: var(--secondary);
 }
 
-.btn-primary:hover{
+.btn-primary1:hover{
     background: transparent;
     border: 2px solid var(--secondary);
 }
@@ -67,9 +68,18 @@
     font-weight: 600;
 }
 
+
 .flex-1{
     flex:1
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .display{
+        flex-direction: column;
+    }
+  }
+  
 
 .justify-center {
     justify-content: center;

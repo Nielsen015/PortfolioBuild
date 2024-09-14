@@ -24,14 +24,15 @@
                     </div>
                     <div>
                         <a href="#" class="active">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Resume</a>
                         <a href="#services">Services</a>
-                        <a href="#">Resume</a>
-                        <a href="#">Work</a>
-                        <a href="#">Contact</a>
+                        <a href="#myworks">Work</a>
+                        <a href="#contact">Contact</a>
                     </div>
                 </div>
                 <div class="right">
-                    <button class="btn btn-primary">Hire Me</button>
+                    <a href="#contact"><button class="btn1 btn-primary1">Hire Me</button></a>
                 </div>
             </nav>
             <div class="hero display items justify-between">
@@ -112,7 +113,16 @@
             </div>
         </div>
     </header>
-    <section id="services" class="about">
+        <!-- Floating Button -->
+        <div class="floating-button">
+            <a href="#" class="button-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up">
+                    <path d="M19 15l-7-7-7 7"></path>
+                </svg>
+            </a>
+        </div>
+    
+    <section id="about" class="about">
         <div class="container display items">
             <div class="flex-1 image-container">
                 <img class="about-img" src="./assets/images/pass.png" alt="">
@@ -136,7 +146,47 @@
             </div>
         </div>
     </section>
-    <section class="services container">
+    <section id="skills">
+        <div class="skills-container container">
+            <h2><span>My Tech</span> Stack</h2>
+            <p>Explore The variety of teshcnlogies I ahve mastered</p>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="./assets/svg/react-2.svg" alt="React">
+                    <h3>React</h3>
+                </div>
+                <div class="skill">
+                    <img src="./assets/svg/nodejs-2.svg" alt="Node.js">
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill">
+                    <img src="./assets/svg/tailwind-css-2.svg" alt="Tailwind CSS">
+                    <h3>Tailwind CSS</h3>
+                </div>
+                <div class="skill">
+                    <img src="./assets/svg/python-5.svg" alt="Python">
+                    <h3>Python</h3>
+                </div>
+                <div class="skill">
+                    <img src="./assets/svg/laravel-2.svg" alt="Laravel">
+                    <h3>Laravel</h3>
+                </div>
+                <div class="skill">
+                    <img src="./assets/svg/javascript-1.svg" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill">
+                    <img src="./assets/svg/adobe-photoshop-2.svg" alt="JavaScript">
+                    <h3>Photoshop</h3>
+                </div>
+                <div class="skill">
+                    <img src="./assets/svg/postman.svg" alt="JavaScript">
+                    <h3>Postman</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services container">
         <div class="back-image">
             <h1 class="section-heading"> <span>My</span> Services</h1>
             <p>Discover how my expertise can elevate your projects.</p>
@@ -195,6 +245,103 @@
             </div>
         </div>
     </section>
+    <section id="myworks" class="my-works">
+        <div class="work-container container">
+            <h1 class="section-head"> <span>My</span> Works</h1>
+            <p class="section-subheading">Explore some of my most recent projects.</p>
+            <div class="works-grid">
+                <div class="work-item">
+                    <img src="./assets/projects/breather.png" alt="Project 1">
+                    <div class="overlay">
+                        <h2>Laravel Ecommerce</h2>
+                        <p>An e-commerce platform built with Laravel.</p>
+                        <a href="https://breatherleatherke.com/" rel="noopener" target="_blank" class="work-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="./assets/projects/jasiri.png" alt="Project 2">
+                    <div class="overlay">
+                        <h2>Business Web App</h2>
+                        <p>A dynamic portfolio website developed with React.</p>
+                        <a href="https://www.jasirilabs.tech/" target="_blank" rel="noopener"  class="work-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="./assets/projects/home.png" alt="Project 3">
+                    <div class="overlay">
+                        <h2>Rental Web App</h2>
+                        <p>A comprehensive system for managing rental properties.</p>
+                        <a href="https://molbs.github.io/RealEstate-Agency/home" target="_blank" rel="noopener"  class="work-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="./assets/projects/eco.png" alt="Project 4">
+                    <div class="overlay">
+                        <h2>Ecommerce</h2>
+                        <p>An e-commerce solution with an intuitive UI</p>
+                        <a href="https://nielsenm.netlify.app/" target="_blank" rel="noopener" class="work-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="./assets/projects/Weso_worshipNight.png" alt="Project 4">
+                    <div class="overlay">
+                        <h2>Poster Designs</h2>
+                        <p>Event Poster Designs</p>
+                        <a href="https://drive.google.com/drive/folders/1Mp7jgovTowVOw7SleTuqKgbFA5CcQ-cX?usp=sharing" target="_blank" rel="noopener" class="work-btn"> View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="./assets/projects/logoBlueJasiri.png" alt="Project 4">
+                    <div class="overlay">
+                        <h2>Graphical logo Design</h2>
+                        <p>Classic and Exquisite Business logos</p>
+                        <a href="https://drive.google.com/drive/folders/1Mp7jgovTowVOw7SleTuqKgbFA5CcQ-cX?usp=sharing" target="_blank" rel="noopener" class="work-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="service">Select Service</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="graphic-design">Graphic Design</option>
+                        <option value="seo">System Integration</option>
+                        <option value="consultation">Consultation</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message..." rows="6" required></textarea>
+                </div>
+    
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Nielsen<span>.</span>  All rights reserved.</p>
+            <p>Designed and Developed by <a href="#">Moses Nielsen</a></p>
+        </div>
+    </footer>    
 </body>
 
 </html>
