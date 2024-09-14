@@ -17,3 +17,6 @@ Welcome to Moses Nielsen's personal portfolio! This website showcases my work, s
 - **CSS3**: For styling and layout. (External CSS file located at `./css/style.css`)
 - **SVG**: For vector graphics and icons.
 - **Google Fonts**: For custom typography.
+
+## Website Link:
+The portfolio is deployed on github pages and hostinger. Please follow link **https://www.mosesnielsen.com/** 
