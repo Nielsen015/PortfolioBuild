@@ -1,0 +1,92 @@
+/* Basic reset and layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 400%; /* Adjust to 100% times the number of slides */
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Default slide position */
+#slide1:checked ~ .slides {
+    transform: translateX(0%);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+
+#slide4:checked ~ .slides {
+    transform: translateX(-300%);
+}
+
+/* Navigation buttons */
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    user-select: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #555;
+}
+
+/* Previous button */
+.prev-button {
+    left: 10px;
+}
+
+/* Next button */
+.next-button {
+    right: 10px;
+}
+
+/* Hide Previous button on the first slide */
+#slide1:checked ~ .prev-button {
+    display: none;
+}
+
+/* Hide Next button on the last slide */
+#slide4:checked ~ .next-button {
+    display: none;
+}

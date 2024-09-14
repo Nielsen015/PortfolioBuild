@@ -28,6 +28,7 @@ body {
     /* background: var(--primary); */
     font-family: 'JetBrains Mono', monospace;
     color: var(--light);
+    height: 100vh;
     
 }
 .logo span {
@@ -98,6 +99,10 @@ header nav .left a.active::after {
     transition: background-color 0.3s ease; /* Smooth transition for color */
 }
 
+.hero {
+  padding: 3rem 0;
+  margin-bottom: 1.5rem;
+}
 .hero .left img {
     width: 350px;
 }
@@ -133,6 +138,7 @@ header nav .left a.active::after {
   
   .hero .right{
     color: var(--pure);
+    /* margin-top:-7rem; */
   }
 
   .hero .right h6 {
@@ -174,5 +180,153 @@ header nav .left a.active::after {
     50% { border-color: var(--pure); }
   }
 
+  /* number items */
+  .count-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 1rem;
+    max-width: 1200px;
+}
+
+.count-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    text-align: left;
+}
+
+.count-number {
+    font-size: 3rem;
+    color: var(--light);
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.count-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.count-label {
+    font-size: 1rem;
+    color: #979595;
+}
+
+/* About Me Section */
+section {
+  padding: 6rem 0;
+  color: var(--primary);
+  /* font-family: 'opensans', sans-serif; */
+}
   
-  
+
+section.about h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+section.about span{
+  color: var(--secondary);
+}
+section.about h3 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+section.about p{
+  color: #1c1c22;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+/* image styling */
+
+section.about .about-img {
+  height: 25rem;
+  cursor: pointer;
+  border-radius: 40px;
+  object-fit: cover; 
+  transition: opacity 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+  transition: filter 0.3s ease; /* Transition effect for filter */
+  filter: brightness(0.8); /* Darkens the image */
+}
+
+/* .talk-button{
+  margin-top: 1.5rem;
+} */
+
+
+/* Services Page */
+section.services {
+  min-height: 80vh;
+  display: flex; 
+  flex-direction: column; 
+  /* align-items: center; */
+  /* background-color: rgba(0, 0, 0, 0.05); */
+  justify-content: center;
+  padding-top: 3rem; 
+  padding-bottom: 3rem;
+}
+
+section.box {
+  max-width: 100%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  padding: 6rem 0;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /*1 for md */
+  gap: 60px;
+}
+
+
+.grid-content {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  gap: 1.5rem;
+}
+.grid-content .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.grid-content .title .logo {
+  height:60px;
+  width: 60px;
+}
+
+
+.text-style {
+  font-size: 3rem;
+  font-weight: 800;
+  color: transparent;
+  transition: all 0.5s ease; 
+  cursor: pointer;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px var(--secondary);
+}
+.text-outline:hover {
+  -webkit-text-stroke: 1px var(--primary);
+}
+
+.border-line {
+  border-bottom: 1px solid rgba(33, 33, 33, 0.3);
+  width: 100%;
+}
+
+.grid h2 {
+  font-size: 42px;
+  font-weight: bold; 
+  line-height: 1; 
+  color: var(--primary);
+}
