@@ -1,30 +1,19 @@
 # Moses Nielsen's Portfolio
 
-Welcome to my portfolio website! This site showcases my work and provides an overview of my skills and experience as a software engineer.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Contact](#contact)
-
-## Introduction
-
-This portfolio site is designed to highlight my expertise in software engineering. It includes sections about my background, the services I offer, and ways to get in touch. The site is built with modern web technologies and aims to provide a clean and user-friendly experience.
-
-## Technologies Used
-
-- **HTML**: Structure of the website.
-- **CSS**: Styling and layout.
-- **Fonts**: Google Fonts for typography.
-- **Icons**: SVGs for visual elements.
+Welcome to Moses Nielsen's personal portfolio! This website showcases my work, skills, and services as a software engineer. The site includes a dynamic homepage, detailed sections on my skills, services, and works, and contact information.
 
 ## Features
 
-- **Responsive Design**: The site is designed to be mobile-friendly and adjusts to various screen sizes.
-- **Hero Section**: Includes a dynamic introduction and a download button for my CV.
-- **About Me Section**: Provides information about my background and expertise.
-- **Services Section**: Describes the various services I offer, with visual icons and detailed descriptions.
-- **Social Media Links**: Icons for GitHub, LinkedIn, and X (formerly Twitter) to connect with me.
+- **Hero Section**: Introduction and call-to-action with a floating button for quick access.
+- **About Section**: Information about my journey, skills, and motivation.
+- **Skills Section**: A grid displaying various technologies and tools I have mastered.
+- **Services Section**: Details of the services I offer, including Web Development, Graphic Design, Software Integration, and Maintenance & Support.
+- **Works Section**: Showcases some of my recent projects with links for more details.
+- **Floating Button**: A button that allows users to quickly scroll to the top of the page.
+
+## Technologies Used
+
+- **HTML5**: For structuring the web pages.
+- **CSS3**: For styling and layout. (External CSS file located at `./css/style.css`)
+- **SVG**: For vector graphics and icons.
+- **Google Fonts**: For custom typography.
