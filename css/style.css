@@ -500,6 +500,10 @@ section.box {
   cursor: pointer;
 }
 
+.overlay a{
+cursor: pointer;
+}
+
 .work-btn {
   padding: 10px 20px;
   background-color: #00a86b;
