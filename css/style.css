@@ -214,7 +214,6 @@ header nav .left a.active::after {
   border-radius: 2.5rem;
   transition: all 0.5s ease;
 }
-.download_socials{}
 
 .btn-primary1 {
   color: var(--pure);
@@ -265,7 +264,7 @@ header nav .left a.active::after {
 .download_socials {
   display: flex;
   flex-direction: row; /* Default layout */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
