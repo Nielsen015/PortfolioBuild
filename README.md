@@ -19,4 +19,4 @@ Welcome to Moses Nielsen's personal portfolio! This website showcases my work, s
 - **Google Fonts**: For custom typography.
 
 ## Website Link:
-The portfolio is deployed on github pages and hostinger. Please follow link **https://www.mosesnielsen.com/** 
+The portfolio is deployed on github pages and hostinger. Please follow link **https://www.mosesnielsen.com/** (Hostinger) or **https://nielsen015.github.io/PortfolioBuild/** (Github pages)
